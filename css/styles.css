@@ -1,0 +1,72 @@
+body {
+	background-image: url(/assets/background.gif); /* Gif de fond */
+	margin: 0; /* Enlever l'espace entre le titre et la barre de nav */
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header { /* Bandeau de titre */
+	background-color: black;
+	padding: 10px;
+	text-align: center;
+	font-size: 150%;
+	color: #2DA510;
+}
+
+.types_hacker {
+	display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+	justify-content: space-evenly;
+	background-color: rgb(255, 255, 255);
+	color: #2DA510;
+	padding: 15px;
+}
+
+.types_hacker a{
+	text-decoration: none;
+	color: #2DA510;
+}
+
+.types_hacker a:hover{
+	color: orange;
+}
+
+.txt_visu_1 {
+	width: 100%;
+
+}
+
+.d {
+	position: relative;
+}
+
+.dc {
+	display: none;
+	position: absolute;
+	background-color: white ;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.flex_deroulant{
+	display: flex;
+	flex-direction: column;
+}
+
+.d:hover .dc {
+	display: flex;
+}
+
+.de {
+	padding: 15px;
+	width: 250px;
+	text-decoration: none;
+	color: #2DA510;
+}
+
+.de:hover{
+	color: orange;
+	background-color:whitesmoke ;
+}
